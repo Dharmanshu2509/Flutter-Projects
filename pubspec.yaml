@@ -1,0 +1,52 @@
+name: first_flutter_project_demo
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sliver_app_bar_builder: ^1.1.0
+  font_awesome_flutter: ^10.7.0
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  geolocator: ^11.0.0
+  geocoding: ^2.0.0
+  carousel_slider: ^4.2.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/images/png_food/
+     - assets/download_images/
+
+  fonts:
+    - family: Catamaran
+      fonts:
+        - asset: assets/blinkit_assets/Fonts/Catamaran-Regular.ttf
+          weight: 400
+        - asset: assets/blinkit_assets/Fonts/Catamaran-Bold.ttf
+          weight: 700
+        - asset: assets/blinkit_assets/Fonts/Catamaran-ExtraBold.ttf
+          weight: 800
+        - asset: assets/blinkit_assets/Fonts/Catamaran-Light.ttf
+          weight: 300
+        - asset: assets/blinkit_assets/Fonts/Catamaran-Medium.ttf
+          weight: 500
+        - asset: assets/blinkit_assets/Fonts/Catamaran-Thin.ttf
+          weight: 100
+        - asset: assets/blinkit_assets/Fonts/Catamaran-SemiBold.ttf
+          weight: 600
